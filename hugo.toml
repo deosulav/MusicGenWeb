@@ -1,0 +1,62 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Digital Music Generation'
+theme = 'hello-friend-ng'
+paginate     = 10
+
+uglyURLs = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  # Subtitle for home
+  homeSubtitle = "Welcome to our exciting music generation project! 🎵 In this endeavor, we delve into the fascinating world of artificial intelligence and music composition. Our goal? To create beautiful melodies, harmonies, and rhythms using cutting-edge deep learning techniques."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+
+
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Abstract"
+url = "/abstract.html"
+weight = 2
+
+[[menu.main]]
+name = "Model"
+url = "/model.html"
+weight = 3
+
+[[menu.main]]
+name = "Data"
+url = "/data.html"
+weight = 4
+
+[[menu.main]]
+name = "Results"
+url = "/results.html"
+weight = 5

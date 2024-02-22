@@ -1,0 +1,8 @@
++++
+title = 'Abstract'
+date = 2024-02-19T23:14:52+05:45
+draft = false
++++
+This project explores the fusion of artificial intelligence and music composition, aiming to develop a deep learning-based model for generating original music compositions. By harnessing the power of models akin to LSTM, enhanced via self-attention, and utilizing a diverse MIDI dataset, the system enables the creation of music across various genres and styles. The model takes into account user-provided melodies to generate music that stems from it, aligning the output with individual preferences. The validity of the generated music is ensured through evaluation, including melodic and harmonic analysis, music information retrieval metrics, and subjective assessment. Furthermore, the project encompasses the development of a user-friendly interface that facilitates interaction, and real-time preview of the generated music. Through this endeavor, the project aims to push the boundaries of AI-driven music generation, empowering musicians and creators to explore novel musical landscapes and unlock their creative potential.
+
+This project seeks to explore the field of music composition; and enhance human creativity by the use of artificial intelligence. By enabling musicians to effortlessly generate unique compositions, this system enhances the human musicians in their musical expression via inspiration and experimentation. Through the use of rigorous validation and a user-friendly interface, the project hopes to upend the quality and usability of the generated music. Ultimately, this project aspires to inspire and empower musicians, while preserving and expanding the richness of musical artistry in the digital age.

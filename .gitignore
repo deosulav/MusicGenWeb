@@ -1,0 +1,5 @@
+public
+*.exe
+*.go
+*.7z
+main

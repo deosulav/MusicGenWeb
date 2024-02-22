@@ -14,4 +14,4 @@ LSTM is ideal for music generation because it models the sequence generation pro
 - **Classification Linear Layers**: Finally we have some scaffolding layers to allow our information to be in a format where classification is possible. Notes and instruments are classified as one's intuition would suggest. But offsets and durations are also predicted by classification, as opposed to regression which was suggested by common wisdom. We chose to work with this deviation because the offsets and duration in MIDI are largely discrete, and regression was not able to predict them as such. We also tried to use PoissionNLLLoss which was hailed to train a network such that it predicts positive integers, which would have been ideal for us. However, we were not able to see this claim validated.  
 
 
-![Model](model.png)
+![Model](./model.png)
